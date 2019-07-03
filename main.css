@@ -1,0 +1,166 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	  border-style: solid;
+	  border-color: #673AB7;
+  border-width: 5px;	
+	
+}
+@media print{
+	body{
+	height:100vh;
+padding-top: 1vh;
+margin-bottom:0cm ;
+border-width: 0px;}
+
+form{
+	margin-top:2cm; 
+}
+
+footer{
+	visibility: hidden;
+}
+
+}
+.head{
+width: 100vw;
+background-color: #;
+padding: 0px;
+margin: 0px;
+
+}
+#dv-logo{
+	text-align: center;
+	align-items: center;
+	padding-top:0.25cm; 
+/*background-color:#673AB7; */ 
+}
+#logo{
+	width: 80px;
+display: inline;
+
+}
+#dv-nm{
+display: inline;
+word-spacing: 0.10cm;
+padding-left: 0.15cm;
+}
+#inpt-nm{
+	margin: 0.10cm;
+	width: 45px;
+
+}
+
+#dv-bl-p{
+text-align: center;
+text-decoration: right;
+	align-items: center;
+	font-size: 20px;
+	margin-top: -47px;
+}
+
+#dv-dt{
+	float: right;
+	margin-right: 40px;
+	padding-top:0px; 
+	
+}
+#inp-dt{
+	width: 70%;
+	font-family: serif;
+	font-weight: 100;
+}
+
+#dv-cstmr{
+
+text-align: right;
+text-decoration: right;
+	align-items: right;
+	padding-top: 0.45cm;
+	margin-right: 1px;
+
+}
+
+
+#dv-tb{
+	
+background-color: black;
+
+padding: 0px;
+margin-top: 0.5cm;
+text-align:center;
+margin-left:center;
+right:0;
+left: 0;
+width: auto !important;
+display: inline;
+text-decoration: right;
+
+}
+
+table{
+	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);}
+  table, th, td {
+  border: 1px solid black;
+ 	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+table input{
+width: 99.5%;
+border: none;
+ direction: rtl;
+}
+	
+#footer-form{
+padding: 0.25cm;
+text-align: right;
+text-decoration: right;
+	align-items: right;
+	margin-right:4px; 
+}
+#footer-form input {
+	cursor:pointer;
+}
+
+#bl-totl{
+	display: inline-block;
+	margin-right: -0.2cm;
+	margin-bottom:4px;
+	padding: 0px; 
+
+}
+#bl-totl input ,#totale input{
+	border:0.5px solid red;
+
+}
+
+#part-totale{
+	display: inline;
+	 
+	margin-right: 0.4cm;
+
+}
+#descount{
+	margin-top: 0.25cm;
+margin-right: 1.1cm;
+}
+
+#payed{
+	display: inline;
+	float: left;
+	margin-left: -7.5cm;
+margin-top: -1cm;
+}
+#totale{
+	display: inline;
+	text-align: left;
+	align-items: left;
+	text-decoration: right;
+	float: left;
+	padding-bottom: -1cm;
+	margin-bottom:0px;
+
+}
